@@ -170,6 +170,7 @@ source ~/.bashrc
 sudo apt-get install libncurses5-dev libncursesw5-dev build-essential zlib1g-dev libffi-dev libssl-dev libsqlite3-dev libreadline-dev
 asdf plugin-add python
 asdf install python 3.8.20
+asdf global python 3.8.20
 ```
 
 ##### With Virtual Env
