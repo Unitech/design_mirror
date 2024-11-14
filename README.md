@@ -167,7 +167,7 @@ This install PIP and PYTHON globally, while you can change the version of python
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.1
 echo ". \"$HOME/.asdf/asdf.sh\"" >> ~/.bashrc
 source ~/.bashrc
-sudo apt-get install libncurses5-dev libncursesw5-dev build-essential zlib1g-dev libffi-dev libssl-dev libsqlite3-dev libreadline-dev
+sudo apt-get install libncurses5-dev libncursesw5-dev build-essential zlib1g-dev libffi-dev libssl-dev libsqlite3-dev libreadline-dev libbz2-dev liblzma-dev
 asdf plugin-add python
 asdf install python 3.8.20
 asdf global python 3.8.20
