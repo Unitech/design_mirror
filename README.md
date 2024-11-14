@@ -119,7 +119,7 @@ installation on local computer
 
 ```bash
 
-sudo apt-get install git cmake build-essential libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev
+sudo apt-get install git cmake build-essential libssl-dev libusb-1.0-0-dev pkg-config libgtk-3-dev libglu1-mesa-dev freeglut3-dev mesa-common-dev v4l-utils
 
 ```
 3. **Clone the Repository**
